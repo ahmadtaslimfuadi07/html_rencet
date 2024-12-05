@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "serve-build": "serve -l 8111 -s build --ssl-cert '../../../../home/ubuntu/ssl/renct/server.crt' --ssl-key '../../../../home/ubuntu/ssl/renct/server.key'"
+  },
+  "dependencies": {
+    "serve": "^14.2.3"	
+  }
+}
